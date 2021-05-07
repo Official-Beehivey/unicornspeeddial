@@ -183,7 +183,7 @@ class _UnicornDialer extends State<UnicornDialer>
                                   ? widget.parentButton.icon
                                   : widget.finalButtonIcon == null
                                   ? Icons.close
-                                  : widget.finalButtonIcon.icon),
+                                  : widget.finalButtonIcon.icon,color: widget.parentButton.color,),
                         );
                       })));
         });
